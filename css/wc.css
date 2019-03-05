@@ -1,0 +1,24 @@
+body,h1,h2,h3,h4,h5,h6,p,ul,li,dl,dd,dt,span {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+a {
+	text-decoration: none;
+	color: #acac99;
+}
+img,input {
+	vertical-align: top;
+	border: 0 none;
+	padding: 0;
+	outline-style: none;
+}
+
+.qufu::after {
+	content: "";
+	display: block;
+	clear: both;
+	height: 0;
+	line-height: 0;
+	overflow: hidden;
+}

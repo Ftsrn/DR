@@ -1,0 +1,124 @@
+/*
+* @Author: Administrator
+* @Date:   2018-10-11 16:39:08
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-10-12 16:59:43
+*/
+/* 顶部第二导航栏 */
+.dtwonav {
+	height: 70px;
+	font: 13px/70px "微软雅黑";
+	border-top: 1px solid #000;
+	padding-left: 10px;
+	color: #333;
+}
+/* 顶部第二导航栏end */
+
+/* 顶部第一块大图 */
+.topimg {
+	width: 100%;
+	height: 540px;
+}
+
+.topimg img {
+	width: 100%;
+	height: 100%;    
+}
+/* 顶部第一块大图end */
+
+/* 上部第三导航栏 */
+.dthreenav {
+	font-size: 0;
+    padding: 50px 0 28px;
+    border-bottom: 1px solid #999;
+    text-align: center;
+}
+.dthreenav span {
+	margin: 0 12px 0 18px;
+	}    
+
+.dthreenav span, .dthreenav a {
+    font-size: 14px;
+    color: #666;
+}
+
+.dthreenav a {
+    display: inline-block;
+    margin-right: 56px;
+}
+
+.dthreenav a:hover {
+	color: #c57d5c;
+}
+
+.dthreenav a:nth-child(9) {
+    color: #c57d5c;
+}
+/* 上部第三导航栏end */
+.list_div {
+	height: 2505px;
+}
+
+.list {
+	height: 376px;
+	padding-top: 30px;
+}
+
+.list li:nth-child(2){
+    margin-left: 28px;
+}
+
+.list li:nth-child(1){
+    margin-left: 2px;
+}
+.list_oneli {
+    width: 665px;
+    height: 376px;
+    position: relative; 
+}
+
+.list_oneli img {
+	width: 100%;
+	height: 100%;
+}
+
+
+.oneli_adj {
+    color: #fff;
+	background-color: rgba(0,0,0,.5);
+	position: absolute;
+    width: 100%;
+    height: 138px;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+}
+
+.oneli_adjbox {
+	position: absolute;
+    width: 100%;
+    height: 138px;
+    left: 0;
+    bottom: 0;
+}
+
+
+.oneli_adjbox div {
+    width: 20px;
+    border-bottom: 1px solid #fff;
+    margin: 18px auto 12px;
+}
+
+.oneli_adjbox h3 {
+	font-family: "宋体";
+	padding-top: 36px;
+	font-size: 22px;
+}
+
+.oneli_adjbox span {
+    font-size: 15px;
+}
+
+.list_oneli:hover .oneli_adjbox {
+	color: #d2b6aa;
+}

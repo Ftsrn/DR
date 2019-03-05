@@ -1,0 +1,46 @@
+/*样式初始化*/
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: "microsoft yahei";
+}
+/*左浮动*/
+.fl {
+    float: left;
+}
+/*右浮动*/
+.fr {
+    float: right;
+}
+/*版心*/
+.w {
+    width: 1360px;
+    margin: 0 auto;
+}
+img,input {
+    vertical-align: middle;
+    outline-style: none;
+    border: 0 none;
+}
+.clearfix::after {
+    content: "";
+    height: 0;
+    line-height: 0;
+    display:block;
+    clear: both;
+    visibility: hidden;
+}
+.clearfix {
+    zoom:1;
+}
+a {
+    color: #000;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}

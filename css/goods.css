@@ -1,0 +1,454 @@
+/* .main {
+    width: 100%;
+    height: 600px;
+    background-color: deepskyblue;
+} */
+
+.banner {
+    height: 580px;
+    width: 1360px;
+    margin-bottom: 40px;
+ }
+ .banner img {
+     height: 100%;
+     width: 100%;
+ }
+ .steps {
+     height: 500px;
+     background:RGB(248,248,248);
+     padding: 30px 80px;
+     text-align: center;
+     margin-bottom: 40px;
+ }
+ .steps h1 {
+     font-weight: 400;
+     font-size: 25px;
+ }
+ .steps .line ,.carousel .line,.make .line{
+    height: 20px;
+    width: 40px;
+    border-bottom: 1px solid #000;
+    margin-left: 583px;
+    margin-bottom: 40px;
+ }
+ .step_one,.step_two,.step_three {
+     height: 400px;
+     width: 340px;
+     background: white;
+ 
+ }
+ .step_one,.step_two {
+     margin-right: 90px;
+ }
+ 
+ .step_one img,.step_two img,.step_three img{
+   height: 100%;
+   width: 100%;
+ 
+ }
+ 
+ .choice {
+     height: 650px;
+     padding: 50px 80px;
+     background: RGB(244,244,244);
+     margin-bottom: 40px;
+ }
+ .choice .title {
+     margin-bottom: 20px;
+ }
+ .choice span {
+    color: RGB(77,58,51);  
+ }
+ .choice span:first-child {
+     font-size: 28px;
+     font-style: italic;
+     margin-right: 10px;
+ }
+ .choice span:nth-child(2){
+     font-size: 20px;
+     margin-right: 377px;
+ }
+ .choice span:last-child {
+     color: RGB(163,163,181);
+     font-size: 12px;
+ }
+ .choiceBox {
+     margin-bottom: 10px;
+ }
+ 
+ .ringDetail  {
+     height: 30px;
+     width: 170px;
+     /* border: 1px solid #ccc; */
+     /* margin-left: 136px; */
+     text-align: center;
+     line-height: 32px;
+     /* display: none; */
+ 
+ }
+ .ringDetail p {
+     font-size: 13px;
+ }
+ .hand {
+     height: 550px;
+     width: 585px;
+     margin-right: 50px;
+     background-color: white;
+     position: relative;
+     overflow: hidden;
+     position: relative;
+ }
+ .hand img {
+     height: 560px;
+     position: absolute;
+     left:26%;
+     top: 8%;
+ }
+ .hand li {
+     display: none;
+ }
+ .hand li:first-child{
+     display: block;
+ }
+ .hand>ul>li:last-child img {
+    width: 290px;
+ }
+ .hand_detail {
+     position: absolute;
+     width: 150px;
+     height: 50px;
+     text-align: center;
+     bottom:5%;
+     right: 0;
+     overflow: hidden;
+ }
+ .hand_detail p {
+     color: RGB(77,58,51);
+     font-size: 12px;
+ }
+ .hd_box {
+     width: 150px;
+     height: 50px;
+     display: none;
+ }
+ .hd_box.active{
+     display: block;
+ }
+ .wearRing {
+     width: 68px;
+     height: 45px;
+     position: absolute;
+     top:41%;
+     left: 29%;
+     margin-left: 1px;
+ }
+ .wearRing img {
+     width: 100%;
+     height: 100%;
+ }
+ 
+ 
+ .type,.typeCenter {
+     width: 562px;
+     height: 550px;
+    /* border: 1px solid #ccc; */
+ }
+ .typeCenter {
+     display: none;
+ }
+ .typeCenter.selected {
+     display: block;
+ }
+ 
+ 
+ .type li {
+     width: 266px;
+     height: 262px;   
+     border: 1px solid white;
+ }
+ .type li img {
+     width: 100%;
+     height: 100%;
+   }
+ 
+ .type li:first-child,.type li:nth-child(3){
+     margin-right: 20px;
+ }
+ .type li:first-child,.type li:nth-child(2){
+     margin-bottom: 20px;
+ }
+ 
+ .choiceBtn {
+     width: 90px;
+     height: 26px;
+     background-color: RGB(170,142,131);
+     margin-right: 2px;
+     text-align: center;
+     line-height: 26px;
+     color: white;
+     font-size: 12px;
+ }
+ .choiceBtn:first-child,.ringDetail{
+     margin-left: 174px;
+ }
+ .choiceBtn:last-child{
+     margin-right: -74px;
+     margin-top: 18px;
+ }
+ .circle {
+   width: 150px;
+   height: 14px;
+   margin-right: 152px;
+  
+ }
+ .circle li {
+     display: block;
+     width: 14px;
+     height: 14px;
+     float: left;
+     
+     margin-right: 10px;
+ }
+ .circle li a {
+     display: block;
+     width: 6px;
+     height: 6px;
+     border: 2px solid #ccc;
+     border-radius: 50%;
+     background: #ccc;    
+     cursor: pointer; 
+     margin-top: 2px;
+ }
+ .circle li:first-child a {
+     background: white;
+     width: 10px;
+     height: 10px;
+     margin-top: 0;
+ }
+ .series {
+     height: 530px;
+     margin-bottom: 40px;
+ }
+ 
+ .seriesBox {
+     width: 440px;
+     height: 530px;
+     overflow: hidden;
+     position: relative;
+ }
+ .seriesBox img{
+     height: 100%;
+     width: 100%;
+     cursor: pointer;
+     transition: all 0.6s;
+ }
+ .seriesBox img:hover {
+     transform: scale(1.1);
+ }
+ .seriesBox:first-child,.seriesBox:nth-child(2){
+     margin-right: 20px;
+ }
+ .series_detail {
+      height: 80px;
+      width: 386px;
+      text-align: center;
+      line-height:30px;
+      position: absolute;
+      top: 70%;
+ }
+ .series_detail p {
+     color:RGB(77,58,51);
+     font-size: 18px;
+ }
+ .series_detail p:nth-child(2){
+     font-size: 35px;
+     margin-top: -20px;
+     margin-bottom: 10px;   
+ }
+ .series_detail p:last-child{
+     font-size: 14px;
+ }
+ 
+ 
+ .carousel {
+     height: 550px;
+     background: RGB(241,241,241);
+     padding: 30px 80px;
+     margin-bottom: 40px;
+     text-align: center;
+ }
+ .carousel h1,.make h1 {
+     font-weight: 400;
+     font-size: 25px;
+ }
+ .carousel h2,.make h2 {
+     font-weight: 400;
+     font-size: 18px;
+     /* margin-top: -10px; */
+ }
+ .carouselDetail {
+     margin-left: 454px;
+ }
+ 
+ .carouselDetail p {
+     color:rgba(109, 55, 34, 0.774);
+     font-size:12px;
+ }
+ 
+ .slide {
+     height: 383px;
+     width: 100%;
+     margin: 0 auto;
+     /* width: 1200px; */
+     position: relative;
+     /* border:1px solid black; */
+ }
+ .slide .leftArrow {
+     position: absolute;
+     width: 40px;
+     height: 20px;
+     left: 0;
+     top: 50%;
+ }
+ .slide .rightArrow {
+     position: absolute;
+     width: 40px;
+     height: 20px;
+     right: 0;
+     margin-right: 2px;
+     top: 50%;
+ }
+ .slide li {
+     position: absolute;
+     left:292px;
+     top:30px; 
+     transition: all .5s;
+     width: 660px;
+     height: 380px;
+ }
+ .slide li img {
+     width: 100%;
+     height: 100%;
+ }
+ 
+ .slide .slide1 {
+     width: 390px;
+     height: 290px;
+     top: 60px;
+     left: 100px;
+     opacity: 0.5;
+     z-index: 2;
+     /* display:none; */
+   }
+   
+   .slide .slide2 {
+     width: 666px;
+     top: 10px;
+     left: 287px;
+     /* opacity: 0.8; */
+     z-index: 4;
+     
+   }
+   
+   .slide .slide3 {
+    width: 390px;
+    height: 290px;
+     top: 60px;
+     left: 750px;
+     opacity: 0.5;
+     z-index: 3;
+     /* display:none; */
+   }
+   
+     .slide4 {
+         width: 0;
+         height: 0;
+         opacity: 0;
+     }
+     
+     .slide5 {
+         width: 0;
+         height: 0;
+         opacity: 0;
+     }
+ 
+ 
+ 
+ .make {
+     text-align: center;
+     padding: 30px 0;
+     margin: 0 auto;
+     width: 1360px;
+     height: 1200px;
+ }
+ .make .line {
+     margin: 10px auto;
+    
+ }
+ .makeBox {
+    height: 250px;
+    margin-bottom: 10px;
+ }
+ .suizuan,.suizuan img {
+     height: 100%;
+     width: 1030px;
+ }   
+ .makeBox_main {
+     height: 100%;
+     width: 310px;
+     text-align: center;
+     line-height: 220px;
+ }
+ .makeBox_main p{
+   color: RGB(70,66,74);
+   font-size: 18px;
+ }
+ .makeBox_main .line {
+     height: 1px;
+     width: 20px;
+     border-bottom: 1px solid black;
+     margin: 0 auto;
+     /* margin-left: 140px; */
+     margin-top: -90px;
+ }
+ .mainOne {
+     background-color: RGB(112,103,94);
+ }
+ .mainOne p {
+     color: white;
+ }
+ .mainOne .line {
+     border-bottom: 1px solid white;
+ }
+ .mainTwo {
+     background-color: RGB(222,215,209);
+    
+ }
+ .mainThree {
+     background-color: RGB(230,230,230);  
+ }
+ .mainThree p {
+     line-height: 20px;
+     margin-top: 5px;
+ }
+ .mainThree p:first-child {
+     margin-top: 80px;
+ }
+ .mainThree .line {
+    margin-top: 10px;
+ }
+ .mainFour {
+     background-color: RGB(222,215,209);
+     padding: 50px 0;
+     height: 140px;
+ }
+ .mainFour p {
+     line-height: 20px;
+     font-size: 18px;
+     margin-bottom: 15px;
+ }
+ 
+ 
+ 
+ 
+ 

@@ -1,0 +1,450 @@
+.banner {
+    background: #eeeded;
+    padding-bottom: 50px
+}
+
+.head_banner {
+    overflow: hidden;
+    border-top: 1px solid #666;
+    font-size: 14px;
+    color: #333;
+    margin-left: 9px;
+    height: 50px;
+    line-height: 50px;
+}
+
+.head_banner a {
+    color: #000;
+}
+
+.body_banner {
+    width: 1000px;
+    margin: 20px auto;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    font-style: normal
+}
+
+.left_banner {
+    width: 660px;
+    float: left;
+    /* display: inline; */
+}
+
+.left22 {
+    background: url(//res.darryring.com/webimg/drFans/actrile_bk.jpg) no-repeat center center;
+    height: 290px;
+    border-top: 4px solid #e8cbbe;
+    position: relative;
+}
+
+.left22 .main_word {
+    text-align: center;
+    
+}
+
+.left22 .main_word h3 {
+    font-size: 30px;
+    color: #565979;
+    margin-top: 96px;
+}
+
+.left22 .main_word .left_line {
+    width: 70px;
+    height: 1px;
+    border-bottom: 1px solid #ababab;
+    margin: 16px auto;
+}
+
+.left22 .main_word p {
+    font-size: 14px;
+    color: #8e8f99;
+}
+
+.content {
+    background: #fff;
+    padding: 50px 32px 40px;
+}
+
+.content h3 {
+    font: 600 20px/60px "microsoft yahei";
+    color: #8d8d8d;
+    text-align: center;
+}
+
+.content .show_zan {
+    padding: 18px 0;
+    text-align: center;
+    height: 14px;
+}
+
+.content .show_zan .zan {
+    font-size: 12px;
+    vertical-align: middle;
+    border: 0;
+    padding: 0;
+}
+
+.content .show_zan .zan i {
+    font-size: 18px;
+    color: #a2a2a2;
+}
+
+.content .show_zan .zan span {
+    font-size: 12px;
+    color: #a2a2a2;
+}
+
+.content .show_zan .count {
+    display: inline-block;
+    height: 15px;
+    line-height: 15px;
+    font-size: 12px;
+    color: #a2a2a2;
+    background: url(//res.darryring.com/webimg/drFans/lookthrough.png) no-repeat center left;
+    padding-left: 28px;
+    vertical-align: middle;
+    margin: 0 20px;
+}
+
+.content .main_content {
+    font-family: "microsoft yahei";
+    font-size: 14px;
+    color: #8d8d8d;
+    line-height: 26px;
+    text-align: justify;
+    padding-bottom: 40px;
+}
+
+.content .main_content .record a {
+    display: block;
+    width: 212px;
+    height: 28px;
+    text-align: center;
+    font: 14px/28px "microsoft yahei";
+    color: #c57d5c;
+    margin: 34px auto;
+    border: 1px solid #c57d5c;
+}
+
+.content .all_content {
+    text-align: center;
+}
+
+.content .all_content p {
+    font-size: 15px;
+    color: #a2a2a2;
+    text-align: left;
+    padding: 25px 5px;
+}
+
+.content .main_content .zan_btn {
+    text-align: center;
+}
+
+.content .main_content .zan_btn .zan {
+    width: 80px;
+    height: 30px;
+    border: 1px solid #e8e8e8;
+    padding: 5px 10px;
+    border-radius: 30px;
+    color: #a2a2a2;
+    cursor: pointer;
+}
+
+.content .main_content .zan_btn .zan i {
+    display: inline-block;
+    height: 15px;
+    line-height: 15px;
+    padding-left: 24px;
+    background-image: url(//res.darryring.com/webimg/drFans/heart.png);
+    background-repeat: no-repeat;
+    background-position: left 0;
+}
+
+.right_banner {
+    width: 328px;
+    border-top: 4px solid #e8cbbe;
+}
+
+.right22 {
+    background-color: #fff;
+    padding: 0 15px 15px;
+    text-align: center;
+}
+
+.right22 h4 {
+    font: 18px/55px simsun;
+    color: #333;
+    background: url(//res.darryring.com/webimg/drFans/line.jpg) no-repeat center 28px;
+}
+
+.right22 h2 {
+    font-size: 30px;
+    color: #252326;
+    margin-bottom: 36px;
+}
+
+.right22 .same_story {
+    margin-bottom: 18px;
+    position: relative;
+}
+
+.right22 .same_story .pic0 {
+    width: 128px;
+    height: 97px;
+    position: relative;
+    overflow: hidden;
+}
+
+.right22 .same_story .pic0 img {
+    width: auto;
+    height: 100%;
+    left: 50%;
+    top: 0px;
+    margin-top: 0px;
+    margin-left: -77.5px;
+}
+
+.right22 .same_story .r_word {
+    width: 156px;
+    text-align: left;
+    font: 16px/28px simsun;
+    color: #252326;
+}
+
+.right22 .same_story .r_word h5 {
+    font-weight: 600;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap
+}
+
+.right22 .same_story .r_word p {
+    height: 56px;
+    overflow: hidden;
+}
+
+.content .commit {
+    padding: 40px 0 0;
+}
+
+.content .commit .commit_first {
+    width: 596px;
+    height: 29px;
+}
+
+.content .commit .commit_firstleft span {
+    font-size: 14px;
+}
+
+.content .commit .commit_firstright {
+    font-size: 14px;
+}
+
+.content .commit .commit_firstright a {
+    display: inline-block;
+    width: 29px;
+    height: 28px;
+    vertical-align: middle;
+}
+
+.content .commit .commit_firstright .weibo {
+    background-image: url(//res.darryring.com/webimg/drFans/shareIcon.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    margin-left: 0;
+}
+
+.content .commit .commit_firstright .space {
+    background-image: url(//res.darryring.com/webimg/drFans/shareIcon.png);
+    background-repeat: no-repeat;
+    background-position: -40px center;
+    margin-left: 0;
+}
+
+.content .commit .commit_firstright .weixin {
+    background-image: url(//res.darryring.com/webimg/drFans/shareIcon.png);
+    background-repeat: no-repeat;
+    background-position: -80px center;
+}
+
+.commit .commit_second {
+    position: relative;
+    padding-top: 34px;
+    padding-bottom: 60px;
+    border-top: 1px solid #fff;
+}
+
+.content .commit .sec_text {
+    width: 596px;
+    height: 103px;
+}
+
+.commit .commit_second .sec_text2 {
+    border-bottom: 1px solid #ccc;
+    padding: 20px 0 10px;
+}
+
+.commit .commit_second .sec_left {
+    display: inline-block;
+    position: relative;
+    width: 46px;
+    height: 46px;
+    border: 2px solid #eee;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 10px;
+    vertical-align: top;
+}
+
+.commit .commit_second .sec_left img {
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
+    position: absolute;
+}
+
+.commit .commit_second .sec_right {
+    width: 525px;
+    vertical-align: top
+}
+
+.commit .commit_second .sec_right span {
+    font: 14px/26px "microsoft yahei";
+    color: #c57d5c;
+}
+
+.commit .commit_second .sec_right .pic11 {
+    font: 14px/26px "microsoft yahei";
+    color: #666;
+}
+
+
+
+.commit .commit_second .sec_right .text_up {
+    display: none;
+    padding-right: 3px;
+    font: 14px/26px "microsoft yahei";
+    color: #dd8860;
+    background-color: #fff;
+    cursor: pointer;
+    text-align: right;
+}
+
+.commit .commit_second .sec_right .pointer {
+    width: 525px;
+    height: 30px;
+}
+
+.commit .commit_second .sec_right .pointer .time {
+    font: 12px/26px "microsoft yahei";
+    color: #666;
+}
+
+.commit .commit_second .sec_right .pointer .respond a { 
+    color: #a2a2a2;
+    display: inline-block;
+    height: 25px;
+    line-height: 25px;
+    padding: 0 12px 0 28px;
+    margin-left: 10px;
+    background-repeat: no-repeat;
+} 
+
+.commit .commit_second .sec_right .pointer .respond .respond_num {
+    border-right: 1px solid #999;
+    padding-left: 0;
+}
+
+.commit .commit_second .sec_right .pointer .respond .zan_num {
+    background-image: url(//res.darryring.com/webimg/drFans/zan.png);
+    background-position: left top;
+}
+
+.commit .commit_third {
+    width: 596px;
+    height: 112px;
+    margin-top: 36px;
+}
+
+.commit .commit_third .th_left {
+    display: inline-block;
+    position: relative;
+    width: 46px;
+    height: 46px;
+    border: 2px solid #eee;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 10px;
+    vertical-align: top;
+}
+
+.commit .commit_third .th_left img {
+    width: auto; 
+    height: 100%; 
+    left: 50%; 
+    top: 0px; 
+    margin-top: 0px; 
+    margin-left: -37px;
+}
+
+.commit .commit_third .th_right {
+    vertical-align: top;
+    width: 522px;
+    position: relative;
+    padding-bottom: 5px;
+}
+
+.commit .commit_third .th_right .r_commit {
+    display: block;
+    position: absolute;
+    left: 16px;
+    top: 0;
+    font: 14px/26px "microsoft yahei";
+    color: #ccc;
+}
+
+.commit .commit_third .th_right .com_word {
+    width: 488px;
+    height: 66px;
+    padding: 0 16px;
+    font: 14px/26px "microsoft yahei";
+    border-color: rgb(169, 169, 169);
+}
+
+.commit .commit_third .th_right .text_count {
+    font: 12px/32px "microsoft yahei";
+    color: #999;
+    display: inline;
+}
+
+.commit .commit_third .th_right .commit_btn {
+    padding: 9px 22px;
+    background-color: #dbc7ba;
+    color: #fff;
+    margin-top: 7px;
+    cursor: pointer;
+    display: inline;
+}
+
+.commit .commit_second .sec_right .area {
+    width: 488px;
+    height: 40px;
+    padding: 0 16px;
+    font: 14px/26px "microsoft yahei";
+    border-color: rgb(169, 169, 169);
+    display: none;
+}
+
+.layer {
+    display: none;
+    width: 400px;
+    height: 200px;
+    background-color: blue;
+}

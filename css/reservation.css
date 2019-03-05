@@ -1,0 +1,102 @@
+.main>p {
+    font-size: 13px;
+    margin: 30px 20px;
+    margin-bottom: 40px;
+}
+.main {
+  margin-bottom: 40px;
+}
+.mainBox {
+    height: 482px;
+    width: 100%;
+}
+.leftBox,.leftBox img {
+    width: 628px;
+    height: 482px;
+}
+
+.rightBox {
+   height: 372px;
+   width: 360px;
+   background: #fafafa;
+   padding: 55px 185px;
+   margin: 0 auto;
+}
+
+.selectBox {
+   width: 330px;
+   /* height: 28px; */
+   /* border: 1px solid black; */
+   margin-bottom: 15px;
+}
+.selectBox:first-child {
+    margin-top: 32px;
+}
+.selectBox input {
+    width: 300px;
+    height: 10px;
+    border: 1px solid #ccc;
+    padding: 10px 10px;
+}
+.selectBox select {
+   margin-right: 5px;
+   height: 30px;
+   width: 156px;
+   border: 1px solid #ccc;
+}
+
+.selectBox:nth-child(2),.selectBox:nth-child(3),.selectBox:nth-child(4){
+   position: relative;
+}
+.selectBox:nth-child(2) span, .selectBox:nth-child(3) span,.selectBox:nth-child(4) span{
+    color:#a98f83;
+    font-size: 12px;
+    position: absolute;
+    right: 20px;
+    top: 5px;
+}
+.selectBox:nth-child(4) span .iconfont {
+    font-size: 20px;
+}
+.selectBox:nth-child(5) input{
+    width: 145px;
+}
+#resure {
+  height: 32.5px;
+  padding:  0;
+  color: white;
+  background:#a98f83;
+  border-radius: 5px;
+  border : 1px solid #a98f83;
+  margin-left: 6px;
+}
+.selectBox:nth-child(6) {
+    margin-top: 30px;
+}
+.selectBox:nth-child(6) button {
+    width: 220px;
+    height: 45px;
+    background: #a98f83;
+    border: none;
+    color: white;
+    margin-left:  61px;
+    cursor: pointer;
+}
+.selectBox:nth-child(6) button:hover {
+    background-color: #8b7971;
+}
+.selectBox:last-child {
+    margin-top: 15px;
+    width: 290px;
+    height: 45px;
+    margin-left: 28px;
+}
+.selectBox:last-child p {
+    color: #999;
+    text-align: center;
+    font-size: 12px;
+}
+
+.optionChange.active {
+    display:none;
+}

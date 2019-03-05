@@ -1,0 +1,142 @@
+.starBan {
+  height: 540px;
+  width: 100%;
+  background:url(../../../images/starBan.jpg) no-repeat center;
+}
+.recommend  {
+  height: 60px;
+  font-size: 12px;
+  margin-left: 10px;
+  line-height: 60px;
+}
+.recommend a:hover {
+  color: #8b766c;
+}
+/* 明星推荐轮播图部分 */
+.starRecommend {
+  /* height: 624px; */
+  background-color:#f6f6f8;
+  margin-top: 20px;
+  padding-top: 50px;
+  text-align: center;
+  padding-bottom: 100px;
+  position: relative;
+}
+.center {
+  font-size: 20px;
+  margin-bottom: 22px;
+}
+/* 图片上的文字 */
+.slideshow {
+  position: relative;
+  height: 520px;
+}
+.slideshow ul li {
+  position: absolute;
+  transition: all 0.7s  0.3s;
+}
+.introduce {
+  display: inline-block;
+  width: 100%;
+  height: 90px;
+  background-color:RGBA(139,118,108,.5);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  line-height: 90px;
+  color: white;
+  font:20px/90px "microsoft yahei";
+  z-index:4;
+}
+.slideshow .slide1 {
+  width: 550px;
+  height: 454px;
+  top: 28px;
+  left: 240px;
+  opacity: 0.5;
+  z-index: 2;
+}
+.slideshow .slide2 {
+  width: 630px;
+  height: 520px;
+  left: 353px;
+  top: 0;
+  opacity: 1;
+  z-index: 5;
+}
+.slideshow .slide3 {
+  width: 550px;
+  height: 454px;
+  top: 28px;
+  left:550px;
+  opacity: 0.5;
+  z-index: 2;
+}
+.slideshow li img {
+ width: 100%;
+ height: 100%;
+}
+.slide4,.slide5,.slide6,.slide7,.slide8 {
+  width: 0;
+  height: 0;
+  opacity: 0;
+  z-index: 0;
+  left: 353px;
+  top: 0;
+}
+/* 第二部分的轮播图 */
+.fourPhoto {
+  margin-top: 70px;
+  margin-left: 178px;
+  height: 196px;
+  width: 1000px;
+  position: relative;
+  overflow: hidden;
+}
+.fourPhoto img {
+  width: 237.5px;
+  height: 196px;
+  margin-right: 11px;
+}
+.fourPhoto ul {
+  position: absolute;
+  height: 196px;
+  width:6000px;
+}
+.fourPhoto ul li {
+  /* position: absolute; */
+  width: 1000px;
+  height: 196px;
+  float: left;
+  background-color:#f6f6f8;
+  border-bottom: 1px solid #666;
+  /* display: none; */
+  transition: all .4s;
+}
+.fourPhoto .last {
+  margin-right: 0px;
+}
+.fourPhoto ul li:first-child {
+  display: block;
+}
+/* 设置两个小箭头 */
+.arrLeft {
+  display: block;
+  width: 36px;
+  height: 11px;
+  background:url(../../../images/arrow.png) no-repeat;
+  left: 9%;
+}
+.arrRight {
+  position: absolute;
+  display: block;
+  width: 36px;
+  height: 11px;
+  background:url(../../../images/arrow.png) no-repeat 0 -10px;
+  left: 88%;
+}
+.arr {
+  position: absolute;
+  top: 80%;
+  cursor: pointer;
+}

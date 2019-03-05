@@ -1,0 +1,261 @@
+/*头部*/
+.head {
+	height: 530px;
+	margin-bottom: 20px;
+	position: relative;
+}
+.head_shang {
+	width: 100%;
+	height: 58px;
+	background-color: #797979;
+	margin-bottom: 20px;
+	position: absolute;	
+}
+.head_nav {
+	background-color: #797979;
+	width: 1000px;
+	height: 58px;
+	line-height: 58px;
+	margin: 0 auto;
+	font-size: 14px;
+	text-align: center;
+}
+.head_shang .head_nav a:hover {
+	color: #c57e5d;
+}
+/*左边*/
+.head_nav .head_nav_left {
+	float: left;
+	padding: 0 10px;
+}
+.head_nav_left a {
+	display: inline-block;
+	color: #fff;
+}
+.head_nav_left a:nth-child(1) {
+	margin-right: 40px;
+}
+.head_nav_left a:last-child {
+	margin-left: 22px;
+}
+/*右边*/
+.head_nav_right {
+	float: right;
+	color: #fff;
+}
+.head_nav_right a {
+	color: #fff;
+}
+.head_nav_right span {
+	display: inline-block;
+	margin: 0 2px 0 50px;
+}
+.fixed_nav {
+	position: fixed;
+	z-index: 2;
+}
+/*图片部分*/
+.DRtop {
+	position: relative;
+	top: 90px;
+}
+.DRtop>a {
+	float: left;
+	margin-right: 20px;
+}
+.DRtop_ridht {
+	width: 600px;
+	height: 430px;
+	background: url(../img/22222.png) no-repeat;
+	float: left;
+	text-align: center;
+}
+.DRtop_ridht a {
+	display: inline-block;
+	color: #555;
+	font-size: 24px;
+	font-family: simsun;
+	margin-top: 150px;
+	margin-bottom: 20px;
+}
+.DRtop_ridht p {
+	line-height: 24px;
+}
+
+
+
+/*<!-- 中间（礼品） -->*/
+.center {
+	width: 100%;
+	background-color: #f6efef;
+	padding: 80px 0 100px 0;
+}
+
+
+.legal h4 {
+	font-weight: 400;
+	font-size: 24px;
+	font-family: simsun;
+	color: #555;
+	margin-bottom: 20px;
+}
+
+/*<!-- DR族权益 -->*/
+.legal li {
+	float: left;
+	width: 320px;
+	height: 460px;
+	background-color: #fff;
+	border: 2px #f6efef solid;
+	text-align: center;
+	cursor: pointer;
+	font-family: simsun;
+	margin-right: 20px;
+	margin-bottom: 40px;
+}
+.legal li:nth-child(4) {
+	margin-right: 0;
+}
+.legal li:hover {
+	border: 2px #c57e5d solid;
+}
+.legal li img {
+	width: 316px;
+	height: 316px;
+}
+.legal li p {
+	font-size: 22px;
+	color: #555;
+}
+.legal li h3 {
+	font-size: 16px;
+	font-weight: 400;
+	color: #555;
+	margin-bottom: 30px;
+}
+.legal li a {
+	display: block;
+	width: 159px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	border: 1px solid #c57e5d;
+	border-radius: 5px;
+	margin: 0 auto;
+	color: #c57e5d;
+}
+/*<!-- 真爱会员专享 -->*/
+.love_vip {
+	margin-top: 100px;
+	font-family: simsun;
+}
+.love_vip_head h4 {
+	float: left;
+	font-weight: 400;
+	font-size: 24px;	
+	color: #555;
+	margin-bottom: 20px;
+}
+
+.love_vip_head a {
+	float: right;
+	color: #555;
+}
+.love_vip li {
+	float: left;
+	width: 320px;
+	height: 460px;
+	background-color: #fff;
+	border: 2px #f6efef solid;
+	text-align: center;
+	cursor: pointer;
+	font-family: simsun;
+	margin-right: 21px;
+	margin-bottom: 40px;
+}
+.love_vip li:hover {
+	border: 2px #c57e5d solid;
+}
+.love_vip li:nth-child(4n) {
+	margin-right: 0;
+}
+.love_vip li img {
+	width: 316px;
+	height: 316px;
+}
+
+.love_vip li p {
+	font-size: 22px;
+	color: #555;
+}
+.love_vip li h3 {
+	font-size: 16px;
+	font-weight: 400;
+	color: #555;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+.love_vip li div a {
+	display: block;
+	width: 159px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	border: 1px solid #c57e5d;
+	border-radius: 5px;
+	margin: 0 auto;
+	color: #c57e5d;
+}
+
+
+
+
+/*尾部*/
+.footer {
+	width: 100%;	
+	border-top: 2px solid #202020;
+	text-align: center;
+}
+
+.footer .help {
+	height: 74px;
+	line-height: 74px;
+}
+.footer .help a {
+	color: #8888a5;
+}
+.footer .help a:nth-child(2) {
+	display: inline-block;
+	margin: 0 130px;	
+}
+.footer_bottom {
+	height: 65px;
+	background-color: #797979;
+	padding-top: 30px;
+	font-size: 12px;
+}
+.footer_bottom p {
+	color: #ccc;
+	line-height: 25px;
+}
+
+
+/*在线客服*/
+.online {
+	position: fixed;
+	right: 0;
+	bottom: 150px;
+	width: 48px;
+	height: 82px;
+	background-color: #d9b39b;
+	text-align: center;
+	cursor: pointer;
+	color: #fff;
+	font-size: 13px;
+	line-height: 14px;
+	border-radius: 8px 0 0 8px;
+	display: none;
+}
+.online p {
+	margin-top: -4px;
+}

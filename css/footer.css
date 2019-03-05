@@ -1,0 +1,250 @@
+/*footer部分开始*/
+/*footer_top部分*/
+.footer_top {
+    width: 1000px;
+    height: 90px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: 0 auto;
+    /*background-color: skyblue;*/
+}
+
+.footer_top li {
+    margin: 0 30px;
+    text-align: center;
+}
+
+.footer_top li:nth-child(1) {
+    margin-left: 100px;
+}
+
+.footer_top i {
+    display: block;
+    width: 60px;
+    height: 60px;
+    margin: 0 auto;
+}
+
+.footer_top span {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.footer_top li:nth-child(1) i {
+    background: url("../images/icon_footer.png");
+}
+
+.footer_top li:nth-child(2) i {
+    background: url("../images/icon_footer.png") -60px 0;
+}
+
+.footer_top li:nth-child(3) i {
+    background: url("../images/icon_footer.png") -120px 0;
+}
+
+.footer_top li:nth-child(4) i {
+    background: url("../images/icon_footer.png") -180px 0;
+}
+
+.footer_top li:nth-child(5) i {
+    background: url("../images/icon_footer.png") -240px 0;
+}
+
+.footer_top li:nth-child(6) i {
+    background: url("../images/icon_footer.png") -300px 0;
+}
+
+.footer_top li:nth-child(7) i {
+    background: url("../images/icon_footer.png") -360px 0;
+}
+
+.footer_top li:nth-child(1):hover i {
+    background: url("../images/icon_footer.png") 0 -60px;
+}
+
+.footer_top li:nth-child(2):hover i {
+    background: url("../images/icon_footer.png") -60px -60px;
+}
+
+.footer_top li:nth-child(3):hover i {
+    background: url("../images/icon_footer.png") -120px -60px;
+}
+
+.footer_top li:nth-child(4):hover i {
+    background: url("../images/icon_footer.png") -180px -60px;
+}
+
+.footer_top li:nth-child(5):hover i {
+    background: url("../images/icon_footer.png") -240px -60px;
+}
+
+.footer_top li:nth-child(6):hover i {
+    background: url("../images/icon_footer.png") -300px -60px;
+}
+
+.footer_top li:nth-child(7):hover i {
+    background: url("../images/icon_footer.png") -360px -60px;
+}
+
+.footer_top li:hover span {
+    color: #bf967c;
+}
+
+/*footer_middle部分*/
+.footer .w:nth-child(2) {
+    background-color: #fff;
+}
+
+.footer .w:nth-child(3) {
+    background-color: #f8f8f8;
+}
+
+.footer .w:nth-child(4) {
+    background-color: #868686;
+}
+
+.footer_middle {
+    padding-top: 55px;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.footer_middle_top {
+    height: 100px;
+}
+
+.footer_middle dl {
+    width: 155px;
+    height: 100px;
+    text-align: center;
+    border-right: 2px solid #dbdbdb;
+}
+
+.footer_middle dl:nth-child(1) {
+    margin-left: 40px;
+}
+
+.footer_middle dl:last-child {
+    border-right: 0;
+}
+
+.footer_middle dt {
+    color: #666;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.footer_middle dd {
+    color: #666;
+    font-size: 12px;
+    height: 22px;
+    line-height: 22px;
+}
+
+.footer_middle_bottom {
+    padding-top: 28px;
+    padding-bottom: 50px;
+    height: 110px;
+    text-align: center;
+}
+
+.footer_middle_bottom p:nth-child(1) {
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 12px;
+    font-weight: 700;
+    color: #666;
+}
+
+.footer_middle_bottom p:nth-child(2) {
+    font-size: 12px;
+    margin-bottom: 18px;
+    color: #666;
+}
+
+.footer_middle_bottom ul li {
+    width: 44px;
+    height: 44px;
+}
+
+.footer_middle_bottom a {
+    display: inline-block;
+    width: 44px;
+    height: 44px;
+}
+
+.footer_middle_bottom ul {
+    margin-left: 445px;
+    position: relative;
+}
+
+.footer_middle_bottom ul li:nth-child(1) {
+    background: url("../images/share_focus.png");
+    margin-right: 30px;
+}
+
+.footer_middle_bottom ul li:nth-child(1):hover {
+    background: url("../images/share_focus.png") 0 -53px;
+}
+
+.footer_middle_bottom ul li:nth-child(2) {
+    background: url("../images/share_focus.png") -44px 0;
+}
+
+.footer_middle_bottom ul li:nth-child(2):hover {
+    background: url("../images/share_focus.png") -44px -53px;
+}
+
+.footer_middle_bottom ul li:nth-child(3) {
+    position: absolute;
+    left: -150px;
+    top: -40px;
+    display: none;
+    /*z-index: 0;*/
+}
+
+.footer_bottom {
+    height: 70px;
+}
+
+.footer_bottom_left {
+    font-size: 12px;
+    color: #c5c5c5;
+    line-height: 70px;
+
+}
+
+.footer_bottom_left ul {
+    margin-left: 50px;
+}
+
+.footer_bottom_left li {
+    margin-right: 25px;
+}
+
+.footer_bottom_left li a {
+    color: #c5c5c5;
+}
+
+.footer_bottom_right li {
+    font-size: 12px;
+    color: #ddd;
+    line-height: 70px;
+}
+
+.footer_bottom_right li a {
+    color: #ddd;
+}
+
+.footer_bottom_right li img {
+    margin-left: 8px;
+}
+
+
+.footer_top_title {
+    width: 1360px;
+    height: 16px;
+    background: url("../images/footer_rp.png") repeat-x;
+}
+
+/*footer部分结束*/

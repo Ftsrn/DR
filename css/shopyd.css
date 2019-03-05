@@ -1,0 +1,287 @@
+/* 标题 */
+.store_title {
+	padding-left: 15px;
+	height: 70px;
+	line-height: 70px;
+	font-size: 13px;
+}
+
+/* 广告部分 */
+.banner {
+	position: relative;
+	height: 540px;
+	overflow: hidden;
+}
+
+.bimg.active {
+	display: block;
+}
+
+.bimg {
+	display: none;
+	position: absolute;
+}
+
+.tab_img {
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+
+}
+
+.tab_img span {
+	float: left;
+	width: 249px;
+	height: 28px;
+	text-align: center;
+	line-height: 28px;
+	font-size: 12px;
+	color: rgba(255, 255, 255, 0.5);
+	background-color: rgba(0, 0, 0, 0.3);
+	cursor: pointer;
+	-ms-user-select: none;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+}
+
+.tab_img span:first-child {
+	border-right: 1px solid #bebbb8;
+}
+
+.tab_img span.active,
+.tab_img span:hover {
+	color: rgba(255, 255, 255, 0.9);
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* 服务部分 */
+.serve {
+	margin-top: 50px;
+}
+
+.serve li {
+	width: 167px;
+	height: 88px;
+	float: left;
+	padding-left: 89px;
+	margin-left: 16px;
+	margin-top: 16px;
+}
+
+.serve li h3 {
+	margin-top: 20px;
+	font-size: 15px;
+	font-weight: 400;
+	color: #505050;
+}
+
+.serve li p {
+	margin-top: 8px;
+	font-size: 12px;
+	color: #b89983;
+}
+
+.serve li:nth-child(1) {
+	background: url(../images/serverIcon.png) no-repeat 25px 24px;
+}
+
+.serve li:nth-child(2) {
+	background: url(../images/serverIcon.png) no-repeat 25px -124px;
+}
+
+.serve li:nth-child(4) {
+	background: url(../images/serverIcon.png) no-repeat 25px -259px;
+}
+
+.serve li:nth-child(5) {
+	background: url(../images/serverIcon.png) no-repeat 25px -383px;
+}
+
+.serve li:nth-child(3) {
+	width: 251px;
+	height: 110px;
+	background-color: #b89983;
+	padding-left: 0;
+	margin: 0;
+	text-align: center;
+	cursor: pointer;
+}
+
+.serve li:nth-child(3) h3 {
+	margin-top: 22px;
+	color: #fff;
+	font-size: 22px;
+}
+
+.serve li:nth-child(3) span {
+	display: block;
+	width: 55px;
+	height: 1px;
+	background-color: #fff;
+	margin: 10px auto;
+}
+
+.serve li:nth-child(3) p {
+	color: #fff;
+	font-size: 16px;
+}
+
+/* 热门城市 */
+.hot_city {
+	margin-top: 46px;
+	height: 70px;
+	line-height: 70px;
+	background-color: #f8f8f8;
+	font-size: 13px;
+	padding: 0 108px;
+	width: 1144px;
+}
+
+.city span {
+	color: #666;
+}
+
+.city a {
+	margin-right: 18px;
+	color: #B89983;
+}
+
+.city a:last-child {
+	margin-right: 0;
+	color: #999;
+}
+
+#search_box {
+	width: 300px;
+	height: 25px;
+	border: 1px solid #f1f1f1;
+	border-radius: 5px;
+	padding-left: 8px;
+}
+
+#search_btn {
+	width: 68px;
+	height: 26px;
+	background-color: #a98f83;
+	border-radius: 5px;
+	color: #fff;
+	margin-left: 2px;
+}
+
+/* 店铺列表 */
+.store_list {
+	background-color: #f8f8f8;
+	margin-top: 44px;
+	padding: 55px 108px;
+	width: 1144px;
+}
+
+.store_list .site {
+	margin-bottom: 90px;
+}
+
+.store_list .list_title {
+	text-align: center;
+	margin-bottom: 12px;
+}
+
+.list_title h2 {
+	font-size: 34px;
+	font-weight: 400;
+	color: #757575;
+}
+
+.list_title span {
+	display: block;
+	width: 46px;
+	height: 3px;
+	background-color: #8b766c;
+	margin: 3px auto 0;
+}
+
+.store_list li {
+	width: 368px;
+	height: 510px;
+	background-color: #fff;
+	text-align: center;
+	float: left;
+	margin-top: 18px;
+}
+
+.store_list li img {
+	width: 341px;
+	height: 225px;
+	margin-top: 13px;
+}
+
+.store_list li .list_top {
+	position: relative;
+}
+
+.store_list li .list_top a {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	background-color: #fff;
+	opacity: 0;
+}
+
+.store_list li .list_bot {
+	font-size: 13px;
+	color: #757575;
+}
+
+.store_list li .list_bot h4 {
+	font-weight: 400;
+	font-size: 19px;
+	color: #99776d;
+	margin: 20px 0;
+}
+
+.store_list li .list_bot a {
+	color: #757575;
+	transition: .5s;
+}
+
+.list_bot p {
+	width: 300px;
+	margin: 0 auto;
+	transition: .5s;
+}
+
+.store_list li .list_bot .fa {
+	font-size: 16px;
+	margin-right: 5px;
+}
+
+.site li:hover p,
+.site li:hover p a {
+	color: #99776d;
+}
+
+.store_list li .list_bot p:nth-child(2) {
+	margin-bottom: 40px;
+}
+
+.store_list li .list_bot p:nth-child(3) {
+	margin-bottom: 25px;
+}
+
+.store_list li:nth-child(2),
+.store_list li:nth-child(5),
+.store_list li:nth-child(8),
+.store_list li:nth-child(11),
+.store_list li:nth-child(14),
+.store_list li:nth-child(17),
+.store_list li:nth-child(20) {
+	margin: 18px 20px 0;
+}
+
+.store_list li:nth-child(1),
+.store_list li:nth-child(2),
+.store_list li:nth-child(3) {
+	margin-top: 0;
+}
